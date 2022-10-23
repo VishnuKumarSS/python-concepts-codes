@@ -1,0 +1,7 @@
+pack()	The Pack geometry manager packs widgets in rows or columns.
+
+grid()	The Grid geometry manager puts the widgets in a 2-dimensional table. 
+The master widget is split into a number of rows and columns, and each “cell” in the resulting table can hold a widget.
+
+place()	The Place geometry manager is the simplest of the three general geometry managers provided in Tkinter. 
+It allows you explicitly set the position and size of a window, either in absolute terms, or relative to another window.
