@@ -1,0 +1,1 @@
+pi=3.14 # just created a variable name as pi and stored a value as 3.14 to import this in another module
