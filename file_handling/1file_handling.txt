@@ -1,0 +1,29 @@
+Before any reading or writing operation of any file,it must be
+opened first
+of all.Python provide built in function open() for it.On calling of
+this function creates file object for file operations.
+
+Syntax:
+file object = open(<file_name>, <access_mode>,< buffering>)
+
+file_name = name of the file ,enclosed in double quotes.
+access_mode= Determines the what kind of operations can be
+performed with file,like read,write etc.
+Buffering = for no buffering set it to 0.for line buffering set it to 1.
+if it is greater than 1 ,then it is buffer size.if it is negative then
+buffer size is system default.
+
+# File opening Modes 
+
+1 r - reading only.Sets file pointer at beginning of the file . This is the default mode.
+2 rb – same as r mode but with binary file
+3 r+ - both reading and writing. The file pointer placed at the beginning of the file.
+4 rb+ - same as r+ mode but with binary file
+5 w - writing only. Overwrites the file if the file exists. If not, creates a new file for writing.
+6 wb – same as w mode but with binary file.
+7 w+ - both writing and reading. Overwrites . If no file exist, creates a new file for R & W.
+8 wb+ - same as w+ mode but with binary file.
+9 a -for appending. Move file pointer at end of the file.Creates new file for writing,if not exist.
+10 ab – same as a but with binary file.
+11 a+ - for both appending and reading. Move file pointer at end. If the file does not exist, it creates a newfile for reading and writing.
+12 ab+ - same as a+ mode but with binary mode.
